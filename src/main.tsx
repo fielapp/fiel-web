@@ -8,10 +8,10 @@ import { config, queryClient } from './config/ChainConfig'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <WagmiProvider config={config}>
+    <WagmiProvider config={config}>
+      <QueryClientProvider client={queryClient}>
         <App />
-      </WagmiProvider>
-    </QueryClientProvider>
+      </QueryClientProvider>
+    </WagmiProvider>
   </StrictMode>,
 )

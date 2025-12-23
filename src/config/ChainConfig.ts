@@ -13,3 +13,7 @@ export const config = createConfig({
     [tempoTestnet.id]: http(),
   },
 })
+
+
+export const pathUsd = '0x20c0000000000000000000000000000000000000'
+export const alphaUsd = '0x20c0000000000000000000000000000000000001'
